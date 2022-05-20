@@ -24,7 +24,7 @@ function Studies(){
                             <Link to ={`${studies.id}`}>Curosear</Link>
                         </div>
                     </div>
-                        )};
+                        )}
                 </div>
             </div>
             
