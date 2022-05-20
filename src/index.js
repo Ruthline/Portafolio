@@ -2,7 +2,7 @@
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter,Navigate,Route, Routes} from 'react-router-dom';
 import Home from './pages/Home';
-import Aboutme from './pages/Aboutme';
+import Projects from './pages/Projects';
 import Jobs from './pages/Jobs';
 import Error404 from './pages/Error404';
 import Skills from './pages/Skills';
@@ -15,7 +15,7 @@ root.render(
   <BrowserRouter>
   <Routes>
       <Route path='/' element={<Home/>} ></Route>
-      <Route path='/about-me' element={<Aboutme/>}></Route>
+      <Route path='/projects' element={<Projects/>}></Route>
       <Route path='/jobs' element={<Jobs/>}></Route>
       <Route path='/error404' element={<Error404/>}></Route>
       <Route path='/studies' element={<Studies/>}></Route>

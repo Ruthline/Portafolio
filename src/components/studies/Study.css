@@ -1,0 +1,33 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 33.8rem;
+    opacity: 0.9;
+    background-color: var(--light-gray);
+}
+.detail h1{
+    text-align: center;
+    padding: 1rem;
+    color: var(--dark-blue-color);
+    text-shadow: 2px 1px 1px var(--dark-blue-color);
+}
+.dates-d{
+    border-radius: 5px;
+    background-color: var(--nav-color);
+    padding: 2rem;
+    line-height: 3rem;
+}
+.dates-d h1{
+    font-size: 25px;   
+}
+.dates-d p strong{
+    padding: 1rem;
+}
+
+@media screen and (min-width:1024px) {
+    .detail{
+        height: 34.9rem;
+    }
+}

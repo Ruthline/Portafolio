@@ -1,4 +1,5 @@
 import Forja from '../section/forja.png';
+import {Link} from 'react-router-dom';
 import Animalandia from '../section/animalandia.jpg';
 import Steam from '../section/steam.png';
 import './Mains.css';
@@ -24,8 +25,8 @@ function Mains(){
                                             <img src={Forja}></img>
                                         </div>
                                         <div className='square-i'>
-                                            <i class="fa-brands fa-github-square"></i>
-                                            <i class="fa-solid fa-square-arrow-up-right"></i>
+                                            <a href='https://github.com/Ruthline/PROYECTO-FORJA'><i class="fa-brands fa-github-square"></i></a>
+                                            <a href='https://ruthline.github.io/PROYECTO-FORJA/'><i class="fa-solid fa-square-arrow-up-right"></i></a>
                                         </div> 
                                     </div>
                                 </div> 
@@ -38,8 +39,8 @@ function Mains(){
                                             <img src={Animalandia}></img>
                                         </div>
                                         <div className='square-i'>
-                                            <i class="fa-brands fa-github-square"></i>
-                                            <i class="fa-solid fa-square-arrow-up-right"></i>
+                                            <a href='https://github.com/Ruthline/Animalandia.github.io'><i class="fa-brands fa-github-square"></i></a>
+                                            <a href='https://ruthline.github.io/Animalandia.github.io/'><i class="fa-solid fa-square-arrow-up-right"></i></a>
                                         </div> 
                                     </div>
                                 </div>
@@ -51,8 +52,8 @@ function Mains(){
                                             <img src={Steam}></img>
                                         </div>
                                         <div className='square-i'>
-                                            <i class="fa-brands fa-github-square"></i>
-                                            <i class="fa-solid fa-square-arrow-up-right"></i>
+                                            <a href='https://github.com/Ruthline/Proyecto-STEAM'><i class="fa-brands fa-github-square"></i></a>
+                                            <a href='https://ruthline.github.io/Proyecto-STEAM/'><i class="fa-solid fa-square-arrow-up-right"></i></a>
                                         </div> 
                                     </div>
                                 </div>
@@ -64,8 +65,8 @@ function Mains(){
                                             <img src={Forja}></img>
                                         </div>
                                         <div className='square-i'>
-                                            <i class="fa-brands fa-github-square"></i>
-                                            <i class="fa-solid fa-square-arrow-up-right"></i>
+                                            <a><i class="fa-brands fa-github-square"></i></a>
+                                            <a><i class="fa-solid fa-square-arrow-up-right"></i></a>
                                         </div> 
                                     </div>
                                 </div>
@@ -77,8 +78,8 @@ function Mains(){
                                             <img src={Animalandia}></img>
                                         </div>
                                         <div className='square-i'>
-                                            <i class="fa-brands fa-github-square"></i>
-                                            <i class="fa-solid fa-square-arrow-up-right"></i>
+                                            <a><i class="fa-brands fa-github-square"></i></a>
+                                            <a><i class="fa-solid fa-square-arrow-up-right"></i></a>
                                         </div> 
                                     </div>
                                 </div>

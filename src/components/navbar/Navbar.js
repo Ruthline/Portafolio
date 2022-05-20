@@ -8,13 +8,13 @@ function Navbar(){
             <i class="fa-solid fa-house-chimney"></i>
             Home
         </Link>
-        <Link to="/home" className='item'>
+        <Link to="/projects" className='item'>
         <i class="fa-solid fa-house-chimney"></i>
-        About me
+        Projects
         </Link>
-        <Link to="/home" className='item'>
+        <Link to="/studies" className='item'>
         <i class="fa-solid fa-house-chimney"></i>
-        Jobs
+        Studies
         </Link>
         </navbar>
     );

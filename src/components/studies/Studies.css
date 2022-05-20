@@ -3,9 +3,11 @@
     border-radius: 6px;
     text-align: justify;
     width: 100%;
-    background-color: var(--light-gray);
 }
+
 .list-studies{
+    
+    background-color: var(--light-gray);
     border: 2px solid var(--dark-blue-color);
     margin: 1rem;
 }
@@ -25,4 +27,16 @@
 }
 .list-año{
     padding: 0.2rem;
+}
+
+@media screen and (min-width:1024px) {
+    .box-s{
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .list-studies{
+        width: 30%;
+    }
 }
