@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.6d969724.css",
-    "main.js": "/Portafolio/static/js/main.8ca7280f.js",
-    "static/media/fondo.jpg": "/Portafolio/static/media/fondo.d4240330e998c4439d3a.jpg",
-    "static/media/foto.png": "/Portafolio/static/media/foto.3256f07cf3e0333aaf23.png",
-    "static/media/animalandia.jpg": "/Portafolio/static/media/animalandia.8bba2df5f8edc1228c76.jpg",
-    "static/media/steam.png": "/Portafolio/static/media/steam.a2db9be6c75f0759c2fd.png",
-    "static/media/forja.png": "/Portafolio/static/media/forja.898a07f308136c399565.png",
-    "index.html": "/Portafolio/index.html",
-    "main.6d969724.css.map": "/Portafolio/static/css/main.6d969724.css.map",
-    "main.8ca7280f.js.map": "/Portafolio/static/js/main.8ca7280f.js.map"
+    "main.css": "/static/css/main.4793682e.css",
+    "main.js": "/static/js/main.b01547d9.js",
+    "static/media/fondo.jpg": "/static/media/fondo.d4240330e998c4439d3a.jpg",
+    "static/media/foto.png": "/static/media/foto.3256f07cf3e0333aaf23.png",
+    "static/media/animalandia.jpg": "/static/media/animalandia.8bba2df5f8edc1228c76.jpg",
+    "static/media/steam.png": "/static/media/steam.a2db9be6c75f0759c2fd.png",
+    "static/media/forja.png": "/static/media/forja.898a07f308136c399565.png",
+    "index.html": "/index.html",
+    "main.4793682e.css.map": "/static/css/main.4793682e.css.map",
+    "main.b01547d9.js.map": "/static/js/main.b01547d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d969724.css",
-    "static/js/main.8ca7280f.js"
+    "static/css/main.4793682e.css",
+    "static/js/main.b01547d9.js"
   ]
 }
