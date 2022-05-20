@@ -1,0 +1,18 @@
+
+.navBar{
+    overflow: hidden;
+    background-color:var(--nav-color);
+    display: flex;
+    padding: 1rem;
+}
+
+.item{
+    
+    text-decoration: none;
+    padding:0.2em  1rem;
+    color: var(--dark-blue-color);
+}
+
+.item i{
+    padding: 0 10px;
+}

@@ -1,0 +1,28 @@
+.box-studies{
+    color: var(--dark-blue-color);
+    border-radius: 6px;
+    text-align: justify;
+    width: 100%;
+    background-color: var(--light-gray);
+}
+.list-studies{
+    border: 2px solid var(--dark-blue-color);
+    margin: 1rem;
+}
+.box-studies h1{
+    text-align: center;
+    text-shadow: 3px 5px 3px var(--nav-color);
+}
+.list-titulo{
+    font-weight: 600;
+    padding: 0.5rem;
+    background-color: var(--dark-blue-color);
+    color: var(--light-gray);
+}
+.list-institucion{
+    padding: 0.5rem;
+    border-bottom: 2px solid var(--dark-blue-color) ;
+}
+.list-año{
+    padding: 0.2rem;
+}

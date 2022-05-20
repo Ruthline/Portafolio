@@ -1,0 +1,43 @@
+.containF{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.containF img{
+    width: 200px;
+}
+
+.textMe{
+    color: var(--dark-blue-color);
+    border-radius: 6px;
+    text-align: justify;
+    width: 80%;
+    margin:1rem;
+    padding: 2rem;
+    background-color: var(--light-gray);
+}
+.textMe p{
+    padding: 1em 0em;
+    line-height: 25px;
+    font-weight: 520;
+}
+
+@media screen and (min-width:768px){
+    
+}
+@media screen and (min-width:1024px){
+    .containF{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .textMe{
+        width: 55%;
+    }
+    
+}
+@media screen and (min-width:1200px){
+    
+}

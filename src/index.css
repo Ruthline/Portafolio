@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@300;700&family=Macondo&display=swap');
+
+body {
+  margin: 0;
+  display: flex;
+  overflow: hidden;
+  font-family: 'Inria Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  
+  font-family: 'Inria Sans', sans-serif;
+}
