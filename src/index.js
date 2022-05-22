@@ -15,13 +15,12 @@ root.render(
   <BrowserRouter>
   <Routes>
       <Route path='/Portafolio/' element={<Home/>} ></Route>
-      <Route path='/' element={<Home/>} ></Route>
       <Route path='/projects' element={<Projects/>}></Route>
       <Route path='/jobs' element={<Jobs/>}></Route>
       <Route path='/error404' element={<Error404/>}></Route>
       <Route path='/studies' element={<Studies/>}></Route>
       <Route path='/skills' element={<Skills/>}></Route>
-      <Route path='/home' element={<Navigate replace to={"/"}/>}></Route>
+      <Route path='/home' element={<Navigate replace to={"/Portafolio/"}/>}></Route>
       <Route path='/studies/:id' element={<Study/>}></Route>
 
   </Routes>
