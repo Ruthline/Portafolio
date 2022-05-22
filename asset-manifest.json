@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portafolio/static/css/main.6d969724.css",
-    "main.js": "/Portafolio/static/js/main.1644ef8c.js",
+    "main.js": "/Portafolio/static/js/main.eedaeb6b.js",
     "static/media/fondo.jpg": "/Portafolio/static/media/fondo.d4240330e998c4439d3a.jpg",
     "static/media/foto.png": "/Portafolio/static/media/foto.3256f07cf3e0333aaf23.png",
     "static/media/animalandia.jpg": "/Portafolio/static/media/animalandia.8bba2df5f8edc1228c76.jpg",
@@ -9,10 +9,10 @@
     "static/media/forja.png": "/Portafolio/static/media/forja.898a07f308136c399565.png",
     "index.html": "/Portafolio/index.html",
     "main.6d969724.css.map": "/Portafolio/static/css/main.6d969724.css.map",
-    "main.1644ef8c.js.map": "/Portafolio/static/js/main.1644ef8c.js.map"
+    "main.eedaeb6b.js.map": "/Portafolio/static/js/main.eedaeb6b.js.map"
   },
   "entrypoints": [
     "static/css/main.6d969724.css",
-    "static/js/main.1644ef8c.js"
+    "static/js/main.eedaeb6b.js"
   ]
 }
