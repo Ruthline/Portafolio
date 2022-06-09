@@ -7,7 +7,7 @@
 :root{
     --dark-blue-color:rgb(52,46,70);
     --nav-color:rgb(194, 201, 225);
-    --light-gray:rgb(217,217,217);
+    --light-gray:rgb(217, 217, 217);
 }
 body{
     background: url(/src/fondo.jpg);

@@ -12,12 +12,72 @@
 
 .textMe{
     color: var(--dark-blue-color);
-    border-radius: 6px;
     text-align: justify;
-    width: 80%;
-    margin:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 56rem;
     padding: 2rem;
-    background-color: var(--light-gray);
+    background: linear-gradient(217deg, rgba(48, 5, 243, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(127, 8, 231, 0.8), rgba(230, 235, 230, 0) 70.71%),
+            linear-gradient(336deg, rgba(65, 5, 231, 0.8), rgba(0,0,255,0) 70.71%);
+}
+.resquare{
+    box-shadow: 3px 3px 3px var(--dark-blue-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    height: 50rem;
+    border-radius: 5px;
+    background: linear-gradient(217deg, rgba(4, 1, 19, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(22, 8, 34, 0.8), rgba(230, 235, 230, 0) 70.71%),
+            linear-gradient(336deg, rgba(10, 2, 32, 0.8), rgba(0,0,255,0) 70.71%);
+}
+.resquare>div{
+    
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+}
+.square-up{
+    animation: left-up 3s ;
+}
+@keyframes left-up {
+    0%{
+        margin-bottom: 100%;
+    }100%{
+        margin-bottom: 0%;
+    }
+}
+
+.square-down{
+    animation: right-down 3s ;
+}
+@keyframes right-down{
+    0%{
+        margin-top: 100%;
+    }100%{
+        margin-top: 0%;
+    }
+}
+.resquare h1{
+    font-size: 28px;
+    color: var(--nav-color);
+    font-weight: bolder;
+    text-shadow: 1.5px 1px 2px var(--light-gray);
+}
+.resquare p{
+    text-align: left;
+    color: var(--nav-color);
+    margin-left: 2rem;
+}
+.square-middle img{
+    
+    border-radius: 30px 10px 30px 10px;
 }
 .textMe p{
     padding: 1em 0em;
@@ -26,15 +86,55 @@
 }
 
 @media screen and (min-width:768px){
-    
-}
-@media screen and (min-width:1024px){
-    .containF{
-        flex-direction: row;
-        justify-content: center;
+
+    .square-middle img{
+        width: 23rem;
+        opacity: 0.6;
     }
+}
+
+@media screen and (min-width:1024px){
     .textMe{
-        width: 55%;
+        width: 100%;
+        height: 35rem;
+    }
+    .resquare{
+        padding: 2rem;
+       display:inherit;
+       width: 85%;
+        height: 30rem;
+        align-items:baseline;
+    }
+    .resquare>div{
+        justify-content:center ;
+        align-items: center;
+        width: 60%;
+
+    }
+    .resquare h1{
+        font-size: 42px;
+    }
+    .resquare p{
+        padding: 0.5rem;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .square-up{
+        z-index: 100;
+        position: relative;
+        left: 42%;
+        top:51%;
+    }
+    .square-middle{
+        position: relative;
+        top:25%;
+        left: 55.3%;
+    }
+    
+    .square-down{
+        position: relative;
+        right: 5%;
+        bottom: 53%;
     }
     
 }
